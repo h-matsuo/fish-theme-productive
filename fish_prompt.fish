@@ -6,6 +6,16 @@ function fish_prompt \
 
   set_color normal
 
+  # Set colors for...
+  set -g fish_color_command c397d8        # commands
+  set -g fish_color_param 7aa6da          # parameters
+  set -g fish_color_end c397d8            # statement terminators
+  set -g fish_color_quote b9ca4a          # quotes
+  set -g fish_color_redirection 70c0b1    # redirections
+  set -g fish_color_error d54e53          # errors
+  set -g fish_color_comment e7c547        # comments
+  set -g fish_color_autosuggestion 969896 # autosuggestions
+
   # Print first line
   set -l _prompt_exit_status (__productive_prompt_exit_status $_exit_status)
   set -l _prompt_cmd_duration (__productive_prompt_cmd_duration $_cmd_duration)
