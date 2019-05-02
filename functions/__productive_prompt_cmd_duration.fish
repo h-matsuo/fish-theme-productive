@@ -1,13 +1,12 @@
 function __productive_prompt_cmd_duration \
-  -d 'Print command duration if greater than threshold'
+  -d 'Print command duration if greater than threshold' \
+  -a cmd_duration_msec
 
-  set -l cmd_duration_msec $argv[1]
   set -l cmd_duration_threshold_msec 5000
 
 
-  function format_msec
-
-    set -l from_msec $argv[1]
+  function format_msec \
+    -a from_msec
 
     set -l msec 1000
     set -l min_msec (math $msec \* 60)
