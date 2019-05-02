@@ -6,16 +6,6 @@ function fish_prompt \
 
   set_color normal
 
-  # Set color theme "Tomorrow Night Bright"
-  set -g fish_color_command c397d8        # commands
-  set -g fish_color_param 7aa6da          # parameters
-  set -g fish_color_end c397d8            # statement terminators
-  set -g fish_color_quote b9ca4a          # quotes
-  set -g fish_color_redirection 70c0b1    # redirections
-  set -g fish_color_error d54e53          # errors
-  set -g fish_color_comment e7c547        # comments
-  set -g fish_color_autosuggestion 969896 # autosuggestions
-
   # Print first line
   set -l prompt_exit_status (__productive_prompt_exit_status $exit_status)
   set -l prompt_cmd_duration (__productive_prompt_cmd_duration $cmd_duration)
