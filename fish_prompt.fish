@@ -6,7 +6,7 @@ function fish_prompt \
 
   set_color normal
 
-  # Set colors for...
+  # Set color theme "Tomorrow Night Bright"
   set -g fish_color_command c397d8        # commands
   set -g fish_color_param 7aa6da          # parameters
   set -g fish_color_end c397d8            # statement terminators
