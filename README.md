@@ -1,13 +1,13 @@
 # fish-theme-productive
 
-[![Fish-schell Theme](https://badgen.net/badge/fish-shell/theme?icon=terminal)](https://fishshell.com/)
-[![License](https://badgen.net/github/license/h-matsuo/theme-productive)](https://github.com/h-matsuo/theme-productive/blob/master/LICENSE)
+[![fish-schell theme](https://badgen.net/badge/fish-shell/theme?icon=terminal)](https://fishshell.com/)
+[![license](https://badgen.net/github/license/h-matsuo/theme-productive)](https://github.com/h-matsuo/theme-productive/blob/master/LICENSE)
 
 The easiest, fastest way to set up your fish environment.  
 No dependencies required.
 
 <div align=center>
-  <img width=500 src=https://user-images.githubusercontent.com/19528041/57052765-65dec980-6cc4-11e9-9a8a-c5ca68bbb0d5.png alt="Screenshot">
+  <img width="500px" src="https://user-images.githubusercontent.com/19528041/57052765-65dec980-6cc4-11e9-9a8a-c5ca68bbb0d5.png" alt="screenshot">
 </div>
 
 ## Installation
