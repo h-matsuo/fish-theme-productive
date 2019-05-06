@@ -1,6 +1,6 @@
 # fish-theme-productive
 
-[![Fish Version](https://badgen.net/badge/fish-shell/theme?icon=terminal)](https://fishshell.com/)
+[![Fish-schell Theme](https://badgen.net/badge/fish-shell/theme?icon=terminal)](https://fishshell.com/)
 [![License](https://badgen.net/github/license/h-matsuo/theme-productive)](https://github.com/h-matsuo/theme-productive/blob/master/LICENSE)
 
 The easiest, fastest way to set up your fish environment.  
@@ -24,3 +24,8 @@ $ fisher add h-matsuo/fish-theme-productive
 $ omf install https://github.com/h-matsuo/fish-theme-productive
 $ omf theme fish-theme-productive
 ```
+
+## TIPS: Syntax highlighting?
+
+This theme doesn't affect fish's syntax highlighting color scheme.  
+If you want to configure it, try [h-matsuo/fish-color-scheme-switcher](https://github.com/h-matsuo/fish-color-scheme-switcher/).
